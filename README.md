@@ -1,2 +1,2 @@
-# notebook
-technical writings on previous work
+# Notebook
+Markdown files describing my technical work for my site.
