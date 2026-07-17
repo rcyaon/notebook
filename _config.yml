@@ -1,10 +1,15 @@
+title: lenaphobic
+description: chips, circuits, and whatever else feels worth writing down
+theme: jekyll-theme-minimal
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Use our own layout/CSS instead of the theme's default look
 plugins:
   - jekyll-relative-links
+
 relative_links:
   enabled: true
-  collections: true
-include:
-  - index.md
-  - c2s2.md
-  - railways.md
-  - teachingworkshops.md
+  collections: false
