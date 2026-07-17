@@ -7,7 +7,6 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-# Use our own layout/CSS instead of the theme's default look
 plugins:
   - jekyll-relative-links
 
