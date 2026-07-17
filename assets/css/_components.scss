@@ -1,0 +1,121 @@
+// -----------------------------------------------------------------------
+// Typography & content components
+// -----------------------------------------------------------------------
+
+.site-title {
+  font-size: 22px;
+  margin: 0 0 4px 0;
+  color: var(--accent);
+
+  &::before {
+    content: "$ whoami";
+    display: block;
+    font-size: 12px;
+    color: var(--dim);
+    margin-bottom: 6px;
+  }
+}
+
+.site-description {
+  font-size: 12px;
+  color: var(--dim);
+  margin: 8px 0 24px 0;
+}
+
+h2 {
+  font-size: 15px;
+  color: var(--accent);
+  margin-top: 2em;
+
+  &::before {
+    content: "// ";
+    color: var(--dim);
+  }
+}
+
+h3 {
+  font-size: 13px;
+  color: var(--dim);
+  margin-top: 1.4em;
+  text-transform: none;
+}
+
+p { margin: 0 0 1em 0; }
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(181, 80, 46, 0.35);
+
+  &:hover { border-bottom-color: var(--accent); }
+}
+
+ul, ol {
+  padding-left: 22px;
+  margin: 0 0 1em 0;
+}
+
+li {
+  margin-bottom: 6px;
+  &::marker { color: var(--dim); }
+}
+
+hr {
+  border: none;
+  border-top: 1px dashed var(--border);
+  margin: 2em 0;
+}
+
+code {
+  background: $color-surface-raised;
+  border: 1px solid var(--border);
+  padding: 1px 5px;
+  color: var(--accent);
+  font-size: 0.9em;
+}
+
+// Fenced code blocks — kramdown/GFM wraps these in <pre><code>.
+// Not present in the original mock, added so real post content renders
+// without inheriting the inline-code box styling twice.
+pre {
+  background: $color-surface-raised;
+  border: 1px solid var(--border);
+  padding: 12px 14px;
+  overflow-x: auto;
+  margin: 0 0 1.4em 0;
+
+  code {
+    background: none;
+    border: none;
+    padding: 0;
+  }
+}
+
+blockquote {
+  margin: 0 0 1.4em 0;
+  padding-left: 14px;
+  border-left: 2px solid var(--border);
+  color: var(--dim);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 0 1.4em 0;
+  font-size: 0.95em;
+
+  th, td {
+    border: 1px solid var(--border);
+    padding: 6px 10px;
+    text-align: left;
+  }
+
+  th {
+    background: $color-surface-raised;
+    color: var(--accent);
+  }
+}
+
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------
+// Design tokens — terminal / warm-paper theme
+// -----------------------------------------------------------------------
+
+$font-mono: "IBM Plex Mono", "Courier New", monospace;
+
+$color-bg:      #faf7f0;
+$color-panel:   #f3efe4;
+$color-border:  #ddd6c5;
+$color-text:    #2b2925;
+$color-accent:  #b5502e;
+$color-dim:     #7a7568;
+
+// titlebar traffic-light dots
+$color-dot-red:    #c96a4e;
+$color-dot-yellow: #d9a441;
+$color-dot-green:  #8a9a5b;
+
+// shared surface used for the titlebar strip, inline <code>, and <pre>
+$color-surface-raised: #ece5d4;
+
+$content-max-width: 720px;
