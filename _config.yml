@@ -3,8 +3,6 @@ description: chips, circuits, and whatever else feels worth writing down
 
 author: lena
 
-remote_theme: b2a3e8/jekyll-theme-console
-
 style: dark
 listen_for_clients_preferred_style: true
 
@@ -16,6 +14,7 @@ header_pages:
 markdown: kramdown
 kramdown:
   input: GFM
+remote_theme: b2a3e8/jekyll-theme-console
 
 plugins:
   - jekyll-remote-theme
