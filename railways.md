@@ -5,7 +5,7 @@ biomimicry's application in high-speed rail transport
 
 trains are not just old-fashioned transportation. when considering modern urban planning theory, aiming for walkable communities, trains are seen as the future of transportation because of their efficiency, safety, and—with the japanese bullet train, or shinkansen—speed.
 
-<img src="images/shinkansen_photo.jpg" width=70%/>
+<img src="images/shinkansen_photo.jpg" width=70%>
 
 *photo by marek slusarczyk on 14 april 2021*
 
