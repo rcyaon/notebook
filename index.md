@@ -1,4 +1,4 @@
-# index
+# /index
 
 - [ 2026 - 7 - 16 ] [two years at cornell custom silicon systems wrapped](c2s2.md)
 - [ 2026 - 7 - 16 ] [how to teach workshops](teachingworkshops.md)
