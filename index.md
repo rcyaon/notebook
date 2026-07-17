@@ -1,24 +1,14 @@
-## Index
+### welcome
 
-### Table of Contents
-
-1. [Two Years of Analog Chip Design at Cornell Custom Silicon Systems](c2s2.md)
-2. [How to Teach With Hands-On Technical Workshops](teachingworkshops.md)
-3. [Birds on Railways](railways.md)
+- [ 2026 - 7 - 16 ] [two years at cornell custom silicon systems wrapped](c2s2.md)
+- [ 2026 - 7 - 16 ] [how to teach workshops](teachingworkshops.md)
+- [ 2024 ] [birds on railways](railways.md)
 
 ---
 
-## Recommendations on getting started with silicon
+## recommendations on getting started with silicon
 
-- ***Practical Electronics for Inventors*** by Paul Scherz. A great first PDF-able reference if your program hosts a copy on a course site (this one via [instrumentacion.qi.fcen.uba.ar](http://instrumentacion.qi.fcen.uba.ar/libro/Scherz.pdf)).
-- ***Fundamentals of Microelectronics*** by Behzad Razavi
-- ***CMOS VLSI Design: A Circuits and Systems Perspective* (4th Edition)** by Neil H. E. Weste and David Money Harris. This one's great! Genuinely one of the best VLSI textbooks out there. I met David Harris once at Harvey Mudd, but we ended up talking purely about aerodynamics. This was before I'd gotten into chips, and I still regret not knowing at the time that he'd written this absolute gem.
-- [Analog IC design course on SKY130](https://analogicus.com/aic2023/) teaches core analog IC concepts while you build actual hands-on circuits on the SKY130 PDK. 
-
----
-
-## Press
-
-- [Samsung Solve for Tomorrow National Winners Tackle Food Waste, Crowd Stampedes and Bus Driver Shortages](https://news.samsung.com/us/samsung-solve-for-tomorrow-national-winners-announced)
-- [Forty Three AiC Community Members Receive Amazon Future Engineer Scholarships](https://www.aspirations.org/news/be-inspired/43-aic-community-members-win-afe-scholarships)
-- [Hispanic Heritage Foundation's 25th Annual Youth Awards to honor high school seniors from across the country for innovative leadership in the community and classroom](https://news.samsung.com/us/samsung-solve-for-tomorrow-national-winners-announced)
+- ***practical electronics for inventors*** by paul scherz. a great first pdf-able reference if your program hosts a copy on a course site (this one via [instrumentacion.qi.fcen.uba.ar](http://instrumentacion.qi.fcen.uba.ar/libro/Scherz.pdf)).
+- ***fundamentals of microelectronics*** by behzad razavi.
+- ***cmos vlsi design: a circuits and systems perspective* (4th edition)** by neil h. e. weste and david money harris. this one's great! genuinely one of the best vlsi textbooks out there. i met david harris once at harvey mudd, but we ended up talking purely about aerodynamics. this was before i'd gotten into chips, and i still regret not knowing at the time that he'd written this absolute gem.
+- [analog ic design course on sky130](https://analogicus.com/aic2023/) teaches core analog ic concepts while you build actual hands-on circuits on the sky130 pdk.
