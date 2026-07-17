@@ -1,4 +1,4 @@
-# index
+# / index
 
 - [ 2026 - 7 - 16 ] [two years at cornell custom silicon systems wrapped](c2s2.md)
 - [ 2026 - 7 - 16 ] [how to teach workshops](teachingworkshops.md)
@@ -6,7 +6,7 @@
 
 ---
 
-## recommendations on getting started with silicon
+## / recommendations on getting started with silicon
 
 - [practical electronics for inventors](http://instrumentacion.qi.fcen.uba.ar/libro/Scherz.pdf) by paul scherz
 - fundamentals of microelectronics by behzad razavi.
