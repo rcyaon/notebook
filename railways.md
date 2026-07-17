@@ -5,7 +5,7 @@ biomimicry's application in high-speed rail transport
 
 trains are not just old-fashioned transportation. when considering modern urban planning theory, aiming for walkable communities, trains are seen as the future of transportation because of their efficiency, safety, and—with the japanese bullet train, or shinkansen—speed.
 
-![shinkansen train on an elevated track passing apartment buildings and cherry blossoms{width=200}](images/shinkansen_photo.jpg)
+<img src="images/shinkansen_photo.jpg" width=70%/>
 
 *photo by marek slusarczyk on 14 april 2021*
 
@@ -15,7 +15,7 @@ the engineers faced a tough design process to create the shinkansen. the group w
 
 although trains do not fly like birds, the connection lies in the field of aerodynamics. aerodynamics, the study of airflow around solid objects, is pertinent to both trains and birds due to their ability to move rapidly.
 
-![cfd visualization showing turbulent kinetic energy around a high-speed train's head and tail{width=200}](images/cfd_visualization.jpg)
+<img src="images/cfd_visualization.jpg" width=70%/>
 
 *picture by w. lu, et al. on 31 march 2017*  
 *visualized in computational fluid dynamics (cfd) assessing aerodynamic efficiency*
@@ -30,7 +30,7 @@ in the utoni-ko sanctuary, kingfishers commonly visit every morning in march. ei
 
 he waited for the bird's *kik-kik-kik* sound, similar to the sound of a bicycle brake in need of oil. in minutes, he looks up as soon as he hears it, and behold, there it is, displaying its magnificence. bobbing its head, scanning the water. in an instant, he saw the bird zoom past the pond, with minimal splash, and pick up a fish along the way. after he blinked, it was gone.
 
-![kingfisher diving into water catching a fish{width=200}](images/kingfisher_photo.jpg)
+<img src="images/kingfisher_photo.jpg" width=70%/>
 
 *photo by canon bird branch project on 2020*
 
@@ -48,7 +48,7 @@ this primarily affected the nose of the train. the beak of the kingfisher is pre
 
 it was able to allow the train to run at higher speeds and still adhere to the standard noise level of 70 decibels a (dba), equivalent to the sound of a washing machine, mandated by the japanese government to avoid noise pollution.
 
-![shinkansen train's long, narrow nose inspired by the kingfisher's beak{width=200}](images/shinkansen_nose.jpg)
+<img src="images/shinkansen_nose.jpg" width=70%/>
 
 *photo by jiji press on 9 may 2019*
 
