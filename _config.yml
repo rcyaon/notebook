@@ -9,7 +9,7 @@ listen_for_clients_preferred_style: true
 footer: "built by @rcyaon"
 
 header_pages:
-  - index.md
+  - [/home](index.md)
 
 markdown: kramdown
 kramdown:
