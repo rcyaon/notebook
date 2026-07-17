@@ -4,8 +4,6 @@
 - [ 2026 - 7 - 16 ] [how to teach workshops](teachingworkshops.md)
 - [ 2024 ] [birds on railways](railways.md)
 
----
-
 ## recommendations on getting started with silicon
 
 - [practical electronics for inventors](http://instrumentacion.qi.fcen.uba.ar/libro/Scherz.pdf) by paul scherz
