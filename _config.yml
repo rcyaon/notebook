@@ -1,24 +1,26 @@
 title: lena's notebook
 description: chips, circuits, and whatever else feels worth writing down
-header_pages:
-  - index.md
-  
-style: dark 
-listen_for_clients_preferred_style: true 
-
-footer: 'built ny @rcyaon'
-disable_google_fonts: false
 
 author: lena
+
 remote_theme: b2a3e8/jekyll-theme-console
+
+style: dark
+listen_for_clients_preferred_style: true
+
+footer: "built by @rcyaon"
+
+header_pages:
+  - index.md
+
 markdown: kramdown
 kramdown:
   input: GFM
 
 plugins:
-  - jekyll-relative-links
-  - jekyll-seo-tag
   - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-relative-links
 
 relative_links:
   enabled: true
