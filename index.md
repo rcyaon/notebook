@@ -1,7 +1,3 @@
-This is where I write about the chips I'm building, the circuits that didn't work until they suddenly did, and whatever else feels worth putting into words. Below is everything currently up, plus some press from way earlier in the journey, and a running list of resources for anyone trying to get into silicon design themselves.
-
----
-
 ## Index
 
 ### Table of Contents
