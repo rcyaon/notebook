@@ -1,8 +1,8 @@
 # how to teach with hands-on technical workshops
 
-there's one lesson that's shaped how i think about teaching more than anything else, and it came from watching mechanical engineers try to learn soldering and pcb work at the motion studio: **lower the barrier to entry, or you lose people before they even get interested.**
+there's one lesson that's shaped how i think about teaching more than anything else, and it came from watching mechanical engineers try to learn soldering and pcb work: **lower the barrier to entry, or you lose people before they even get interested.**
 
-sounds almost too simple to be a real insight, but watching it happen in real time taught me more than any teaching guide could have. someone genuinely curious about electronics hits a confusing step, and you can just see them deflate. when the task felt hard, interest dropped. when it felt approachable, people leaned in. **small wins build motivation.** big, ambiguous obstacles kill it.
+sounds almost too simple to be a real insight, but watching it happen in real time taught me more than any teaching guide could have. someone genuinely curious about electronics hits a confusing step, and you can just see them deflate. when the task felt hard, interest dropped. when it felt approachable, people leaned in. **small wins build motivation.** obstacles kill it.
 
 so here's what that lesson looks like in practice, using feedback from a real workshop (a drone-building session) as the case study.
 
@@ -18,7 +18,7 @@ people don't mind that soldering is hard, they mind not knowing whether they're 
 
 none of these are hard questions, but when the instructions aren't specific, every participant has to make their own judgment call, and every judgment call is a tiny moment of self-doubt that chips away at confidence. multiply that by twenty steps and you've built a workshop that *feels* hard even though no individual step actually was.
 
-**the fix isn't removing difficulty, it's adding certainty.** specify the exact fastener. say which two holes, and reference something visual and unambiguous, like the straight lines on the frame instead of "the ones on the left."
+**the fix isn't removing difficulty, it's adding certainty.** specify the exact fastener. reference something visual and unambiguous, like the straight lines on the frame instead of "the ones on the left."
 
 ---
 
