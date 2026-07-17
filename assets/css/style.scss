@@ -1,12 +1,12 @@
 ---
 ---
-@import "{{ site.theme }}";
-
 /* ============================================
    lenaphobic.tech blog styling
-   Matches the retro-OS desktop aesthetic of the
-   main site: IBM Plex Mono, off-white windows,
-   thin gray chrome, uppercase tracked labels.
+   No theme import: this file is self contained
+   and pairs with the custom _layouts/default.html
+   to avoid fighting the base theme's own layout
+   rules (that was the cause of the "only works
+   at 50% width" bug).
    ============================================ */
 
 :root {
@@ -23,6 +23,11 @@
     box-sizing: border-box;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: var(--font-mono);
     background: var(--bg-desktop);
@@ -31,44 +36,44 @@ body {
     -moz-osx-font-smoothing: grayscale;
     font-synthesis: none;
     text-rendering: geometricPrecision;
-    margin: 0;
-    padding: 24px 16px 64px;
     font-size: 14px;
     line-height: 1.65;
+    padding: 24px 16px 64px;
 }
 
-/* Center content in a "window" like the rest of the site */
-.wrapper,
-body > * {
-    max-width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Wrap the whole page in a fake title bar + window body */
-body::before {
-    content: "lenaphobic.tech — notebook";
-    display: block;
+/* Single content column, fixed max width, centered.
+   No floats, no absolute positioning, so this behaves
+   the same at any viewport width. */
+.wrapper {
     max-width: 720px;
     margin: 0 auto;
     background: var(--bg-window);
     border: 1px solid var(--border-gray);
-    border-bottom: none;
-    padding: 4px 6px;
-    font-size: 11px;
-    font-weight: 500;
+    box-shadow: 2px 2px 4px rgba(154, 154, 154, 0.3);
+    padding: 20px 32px 40px;
+}
+
+.site-title {
+    font-size: 22px;
+    text-transform: uppercase;
     letter-spacing: 0.5px;
+    margin: 0 0 6px 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-gray);
+}
+
+.site-title a {
+    text-decoration: none;
     color: var(--text-dark);
 }
 
-.wrapper {
-    background: var(--bg-window);
-    border: 1px solid var(--border-gray);
-    box-shadow: 2px 2px 4px rgba(154, 154, 154, 0.3);
-    padding: 28px 32px 40px;
+.site-description {
+    font-size: 12px;
+    color: var(--border-gray);
+    margin: 10px 0 24px 0;
 }
 
-/* Headings */
+/* Headings inside post content */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-mono);
     color: var(--text-dark);
@@ -76,15 +81,6 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.3;
     margin-top: 1.6em;
     margin-bottom: 0.6em;
-}
-
-h1 {
-    font-size: 22px;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    border-bottom: 1px solid var(--border-gray);
-    padding-bottom: 10px;
-    margin-top: 0;
 }
 
 h2 {
@@ -112,7 +108,6 @@ p {
     margin: 0 0 1em 0;
 }
 
-/* Links, matching the sparkle-trail site's link style */
 a {
     color: var(--text-dark);
     text-decoration: underline;
@@ -128,7 +123,6 @@ a:hover {
     color: var(--border-gray);
 }
 
-/* Lists */
 ul, ol {
     padding-left: 22px;
     margin: 0 0 1em 0;
@@ -138,7 +132,6 @@ li {
     margin-bottom: 6px;
 }
 
-/* Code */
 code {
     font-family: var(--font-mono);
     background: rgba(255, 255, 255, 0.6);
@@ -164,7 +157,6 @@ pre code {
     padding: 0;
 }
 
-/* Blockquotes, used for pulled feedback / testimonial-style lines */
 blockquote {
     margin: 1em 0;
     padding: 8px 14px;
@@ -173,7 +165,6 @@ blockquote {
     font-style: italic;
 }
 
-/* Tables, for the ADC spec sheets and comparisons */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -199,7 +190,6 @@ tr:nth-child(even) td {
     background: rgba(0, 0, 0, 0.015);
 }
 
-/* Images */
 img {
     max-width: 100%;
     height: auto;
@@ -209,43 +199,12 @@ img {
     background: #eaeaea;
 }
 
-/* Figure captions written as italic text right under an image */
-em {
-    font-style: italic;
-}
-
-p > em:only-child,
-p em:first-child:last-child {
-    display: block;
-    text-align: center;
-    font-size: 11px;
-    color: var(--border-gray);
-    margin-top: -0.8em;
-}
-
-/* Horizontal rules as section breaks, styled like window dividers */
 hr {
     border: none;
     border-top: 1px solid var(--border-gray);
     margin: 2em 0;
 }
 
-/* Table of contents / index list styling */
-ol li a,
-ul li a {
-    text-decoration: underline;
-}
-
-/* Small caption / byline style, useful under H1 post titles */
-.byline,
-h1 + p:first-of-type em:only-child {
-    font-size: 12px;
-    color: var(--border-gray);
-    text-transform: none;
-    letter-spacing: 0.2px;
-}
-
-/* Back-to-index link, add class="back-link" to it in your md files */
 .back-link {
     display: inline-block;
     margin-bottom: 20px;
@@ -262,7 +221,14 @@ h1 + p:first-of-type em:only-child {
     background: var(--hover-gray);
 }
 
-/* Scrollbar to match the desktop windows */
+.site-footer {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border-gray);
+    font-size: 11px;
+    color: var(--border-gray);
+}
+
 ::-webkit-scrollbar {
     width: 12px;
 }
@@ -281,17 +247,16 @@ h1 + p:first-of-type em:only-child {
     background: var(--active-gray);
 }
 
-/* Mobile */
 @media (max-width: 768px) {
     body {
         padding: 12px 8px 48px;
     }
 
     .wrapper {
-        padding: 18px 18px 28px;
+        padding: 16px 18px 28px;
     }
 
-    h1 {
+    .site-title {
         font-size: 18px;
     }
 }
