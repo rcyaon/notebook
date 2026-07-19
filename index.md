@@ -5,11 +5,7 @@
 - [birds on railways](railways.md)
 
 ## about
-i'm an electrical engineering student learning how to build with electronics.
-i made this "notebook" to force myself to get better at explaining
-what things actually do, and why -- partly for people i bring my
-projects up to (tell me about your work!), and partly because it
-forces me to understand my own work better.
+i'm an electrical engineering student learning how to build with electronics. i made this "notebook" to force myself to get better at explaining what things actually do, and why - partly for people i bring my projects up to (tell me about your work!), and partly because it forces me to understand my own work better.
 
 ## recommendations on getting started with silicon
 
