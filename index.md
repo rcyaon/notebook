@@ -1,8 +1,14 @@
-# /index
+# entries
 
-- [ 2026 - 7 - 16 ] [two years at cornell custom silicon systems](c2s2.md)
-- [ 2026 - 7 - 16 ] [how to teach technical workshops](teachingworkshops.md)
-- [ 2024 ] [birds on railways](railways.md)
+<!-- [ 2026 - 7 - 16 ]
+[ 2024 ] -->
+
+- [two years at cornell custom silicon systems](c2s2.md)
+- [how to teach technical workshops](teachingworkshops.md)
+- [birds on railways](railways.md)
+
+## about
+i'm an electrical engineering student learning how to build with electronics. i made this "notebook" to force myself to get better at explaining what things actually do, and why - partly for people i bring my projects up to (tell me about your work!), and partly because it forces me to understand my own work better.
 
 ## recommendations on getting started with silicon
 
