@@ -6,12 +6,12 @@
 - [birds on railways](railways.md)
 
 ## about
-my technical(-ish) writing lives here. for my personal writing, head over to my [substack](https://substack.com/@lenaphobia).
+my technical-ish writing lives here. for my personal writing, head over to my [substack](https://substack.com/@lenaphobia).
 
 ## recommendations on getting started with silicon
 
-- [practical electronics for inventors](http://instrumentacion.qi.fcen.uba.ar/libro/Scherz.pdf) by paul scherz
-- [open circuits](https://archive.org/details/open-circuits) by windell oskay 
+- practical electronics for inventors by paul scherz and simon monk
+- [open circuits](https://archive.org/details/open-circuits) by windell oskay and eric schlaepfer
 - fundamentals of microelectronics by behzad razavi
 - cmos vlsi design, a circuits and systems perspective by neil h. e. weste and david money harris. i met david harris once at harvey mudd, but we ended up talking purely about aerodynamics. this was before i'd gotten into chips, and i still regret not knowing at the time that he'd written this absolute gem :,(
 - [aic2023](https://analogicus.com/aic2023/) teaches core analog ic concepts while building circuits on the sky130 pdk
