@@ -1,6 +1,4 @@
 # entries
-
-• [america still makes things](deeptech.md)
 • [two years at cornell custom silicon systems](c2s2.md)
 • [how to teach technical workshops](teachingworkshops.md)
 • [birds on railways](railways.md)
