@@ -4,7 +4,7 @@
 • [birds on railways](railways.md)
 
 ## about
-my technical-ish writing lives here. for my personal writing, head over to my [substack](https://substack.com/@lenaphobia).
+writing about my projects lives here. for my personal writing, head over to my [substack](https://substack.com/@lenaphobia).
 
 ## literature recs
 • practical electronics for inventors by paul scherz and simon monk
