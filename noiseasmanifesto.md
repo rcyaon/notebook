@@ -1,7 +1,7 @@
 # noise as manifesto
 on geese and the italian futurists
 
-*originally posted on [substack](https://lenaphobia.substack.com), march 19, 2026*
+*originally written on march 19, 2026*
 
 i fell in love with geese a couple months ago. whether it’s cameron winter’s writing—laced with something that feels increasingly existential, especially in his song for war child, where references to kierkegaard start to surface—or their live performances, which never seem to land the same way twice instrumentally. 3d country had been sitting in my playlists for a while, but when *getting killed* finally came out, something clicked. hearing “taxes,” i felt genuinely understood for the first time in a long time.[^1]
 

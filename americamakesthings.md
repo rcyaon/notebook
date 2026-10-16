@@ -1,7 +1,7 @@
 # america still makes things
 on manufacturing: the slowest part of building is finally speeding up
 
-*originally posted on [substack](https://lenaphobia.substack.com), august 13, 2026*
+*originally written on august 13, 2026*
 
 i think marinetti kind of nailed the spirit of american innovation way back in his manifesto of futurism in 1909. everyone at the time was freaked out by the machine age, convinced all this speed and technology was going to be the end of the world. marinetti just wasn’t worried about it. “time and space died yesterday,” he wrote, “we already live in the absolute, because we have created eternal, omnipresent speed.” and that’s kind of how america has always felt to me. it never really finds a reason to slow down. that same excitement about building fast is exactly what i see happening right now, and honestly nowhere more than in how we make things.
 
